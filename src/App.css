@@ -310,6 +310,10 @@ a:hover {
     padding: 16px 32px;
 }
 
+.logout-container:hover{
+    cursor: pointer;
+}
+
 .logout-text {
     color: var(--nav-logout-font-color);
     font-size: 12px;
