@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--main-bg);
+    color: #fff;
+    padding: 32px;
+}
+
+.inner-Container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 32px;
+    font-size: 16px;
+    height: 253px;
+    height: fit-content;
+}
+
+.searchChat-subtitle{
+    font-size: 16px;
+    padding: 32px 0;
+}
+.searchChat-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
