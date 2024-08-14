@@ -8,7 +8,7 @@ type Props = {
 export default function RecordScreen( {result, action} : Props) {
     return (
         <li className="dflex mb10">
-            <span className="done-sign">{result}</span>
+            <span className="todo-sign">{result}</span>
             <p className="todo-done-text">{action}</p>
         </li>
     );

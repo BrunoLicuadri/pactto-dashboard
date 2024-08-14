@@ -47,74 +47,7 @@
     color: var(--upload-font-color);
 }
 
-
-/*
-.search-container{
-    height: 76px;   
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.search-box {
-    height: 56px;
-    width: 100%;
-    display: flex;
-    border: 1px solid var(--searh-placeholder-color);
-    border-radius: 4px;
-    cursor: text;
-}
-
-.search {
-    height: 54px;
-    width: calc(100% - 52px);
-}
-
-.search-input{
-    height: 54px;
-    width: 100%;
-    cursor: text;
-    border: none;
-    background-color: var(--main-bg);
-    outline: none;
-    color: var(--searh-placeholder-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 48px;
-    padding: 16px;
-}
-
-.search-input::placeholder{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 48px;
-    color: var(--searh-placeholder-color);
-}
-
-.search-img {
-    height: 54px;
-    width: 52px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
+.upload-video-container:hover {
+    background-color: var(--upload-video-bg2-color);
 
 }
-
-.search-img img{
-    padding: 12px;
-    height: 48px;
-    width: 48px;
-}
-
-.search-box:hover{
-    border: 1px solid #fff;
-}
-
-.search-box:focus-within{
-    border: 1px solid #1dbba5;
-}
-
-*/

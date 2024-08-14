@@ -8,10 +8,11 @@
     --header-bg: #424242;
     --header-close-button: #fff;
     --todo-bg-color:#545454;
-    --todoDone-bg-color: #1dbba5;
+    --done-bg-color: #1dbba5;
     --close-bg-color:#545454;
     --package-bg-color: #1dbba5;
     --upload-video-bg-color:#1dbba5;
+    --upload-video-bg2-color:#129281;
     --nav-logout-bg-color: #B8B8B8;
     
 
@@ -44,7 +45,6 @@
 
 
 .main-container {
-    height: 100vh;
     max-height: 100%;
     width: calc(100vw - 257px);
     background-color: var(--main-bg);

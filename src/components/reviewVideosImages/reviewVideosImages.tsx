@@ -5,11 +5,12 @@ type Props = {
     action: string;
 }
 
-export default function ReviewVideosImages( {result, action} : Props) {
+export default function ReviewVideosImages({ result, action }: Props) {
     return (
         <li className="dflex mb10">
-            <span className="done-sign">{result}</span>
+            <span className="todo-sign">{result}</span>
             <p className="todo-done-text">{action}</p>
         </li>
+        
     );
 }

@@ -32,7 +32,7 @@ li {
 .done-sign {
     height: 18px;
     width: 38px;
-    background-color: var(--todoDone-bg-color);
+    background-color: var(--done-bg-color);
     color: var(--li-font-color);
     border-radius: 8px;
     text-transform: uppercase;
