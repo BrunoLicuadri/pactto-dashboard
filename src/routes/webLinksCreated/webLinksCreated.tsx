@@ -17,7 +17,7 @@ export default function WebLinksCreated({ text1, text2 }: Props) {
                     </div>
 
                     <div className='searchChat-container'>
-                        <SearchInput />
+                        <SearchInput text='Search'/>
                     </div>
                 </div>
                 <div className='inner-Container'>
@@ -26,7 +26,7 @@ export default function WebLinksCreated({ text1, text2 }: Props) {
                     </div>
 
                     <div className='searchChat-container'>
-                        <SearchInput />
+                        <SearchInput text='Search'/>
                     </div>
                 </div>
 

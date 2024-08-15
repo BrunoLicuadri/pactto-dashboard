@@ -25,9 +25,9 @@ export default function UploadButton({ text }: Props) {
     };
 
     return (
-        <span className="upload-video-container">
+        <span className="button-container">
             <input type="file" ref={fileInputRef} accept="video/*" style={{ display: 'none' }} onChange={handleFileChange} />
-            <p onClick={handleClick} id="uploadButton">{text}</p>
+            <p className='button-text' onClick={handleClick} id="uploadButton">{text}</p>
         </span>
     );
 }

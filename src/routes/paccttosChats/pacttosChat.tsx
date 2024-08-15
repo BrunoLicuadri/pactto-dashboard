@@ -16,7 +16,7 @@ export default function PacttosChats({ text }: Props) {
 
                 <div className='searchChat-container'>
                     <p>No Pacttos found</p>
-                    <SearchInput />
+                    <SearchInput text='Search'/>
                 </div>
             </div>
 

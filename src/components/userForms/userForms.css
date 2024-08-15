@@ -1,0 +1,131 @@
+
+.teste-container{
+    height: 100%;
+    width: 100%;
+    background-color: var(--main-bg);
+}
+
+.usernameForm {
+    height: 262px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.userPasswordForm{
+    height: 195px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.inputContainer{
+    height: 64px;
+    width: 100%;
+}
+
+.inputBox{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+
+    height: 42px;
+    width: 100%;
+    background-color: var(--forms-input-bg-color);
+    color: var(--forms-input-font-color);
+    padding: 10px;
+    margin-bottom: 22px;
+    border: none;
+    outline: none;
+}
+
+.inputBox:hover{
+    background-color: #ffffff29;
+}
+
+.inputBox:focus {
+    background-color: #ffffff51;
+}
+
+.inputBox::placeholder{
+    color: var(--forms-input-font-color);
+}
+
+
+
+
+.checkbox-section-container{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+
+.mainActivities{
+    padding-top: 32px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+
+.checkbox-area{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.checkbox-container{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-box {
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.checkbox-area label{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Roboto';
+    padding-left: 4px;
+    color: #fff;
+}
+
+.otherMainActivity-container{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 16px;
+}
+
+.otherMainActivity-container::placeholder{
+    color: var(--forms-input-font-color);
+}
+
+.delete-user{
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.delete-user a{
+    cursor: pointer;
+    text-decoration: underline;
+}

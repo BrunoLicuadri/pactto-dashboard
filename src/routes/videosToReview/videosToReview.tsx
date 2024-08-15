@@ -15,7 +15,7 @@ export default function VideosToReview({ text }: Props) {
                 </div>
 
                 <div className='searchChat-container'>
-                    <SearchInput />
+                    <SearchInput text='Search'/>
                 </div>
             </div>
 

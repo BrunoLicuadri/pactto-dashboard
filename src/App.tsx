@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <>
-      <div className='dflex'>
+      <div className='dflex page-container'>
         <nav className="nav-container">
           <div className="nav-info-container">
             <div className="header-menu-container">

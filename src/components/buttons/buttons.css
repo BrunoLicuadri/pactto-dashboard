@@ -1,0 +1,33 @@
+.button-container{
+    width: 200px;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.primaryButton-bg{
+    background-color: var(--button-primary-bg-color);
+}
+
+.secondaryButton-bg {
+    background-color: var(--button-secondary-bg-color);
+}
+
+.button-container:hover {
+    background-color: var(--button-hover-color);
+}
+
+.button-text{
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--button-font-color);
+}
+

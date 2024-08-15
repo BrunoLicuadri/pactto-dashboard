@@ -11,9 +11,11 @@
     --done-bg-color: #1dbba5;
     --close-bg-color:#545454;
     --package-bg-color: #1dbba5;
-    --upload-video-bg-color:#1dbba5;
-    --upload-video-bg2-color:#129281;
+    --button-primary-bg-color:#1dbba5;
+    --button-hover-color:#129281;
+    --button-secondary-bg-color:#B8B8B8;
     --nav-logout-bg-color: #B8B8B8;
+    --forms-input-bg-color:#ffffff1a;
     
 
     --nav-img-main-color: #b8b8b8;
@@ -21,7 +23,7 @@
 
     --username-font-color: #fff;
     --membership-font-color:#cacaca;
-    --upload-font-color: #232225;
+    --button-font-color: #232225;
     --package-info-font: #fff;
     --nav-font-main-color: #b8b8b8;
     --nav-menu-home-font-color: #1dbba5;
@@ -32,7 +34,8 @@
     --li-todo-done-text: #b8b8b8;
     --welcoming-font-color: #fff;
     --search-placeholder-color: #b8b8b8;
-    
+    --forms-input-font-color: rgba(255, 255, 255, .87);
+
     
 }
 
@@ -50,13 +53,13 @@
     background-color: var(--main-bg);
 }
 
-nav {
-    height: 100vh;
-    background-color: var(--nav-bg);
-}
-
 .dflex {
     display: flex;
+}
+
+.page-container{
+    height: 100%;
+    width: 100%;
 }
 
 .mb10 {
@@ -73,8 +76,9 @@ a:hover {
 /**************** NAV CONTENT ****************/
 
 .nav-container {
-    height: auto;
+    height: 100%;
     max-width: 257px;
+    background-color: var(--nav-bg);
 }
 
 .nav-info-container {
