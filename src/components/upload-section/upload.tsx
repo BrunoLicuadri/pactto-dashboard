@@ -18,7 +18,7 @@ export default function Upload( {subtitle} : Props) {
                 <UploadButton text='+ upload new video' />
             </div>
             <div className="search-container">
-                <SearchInput />
+                <SearchInput text='Search' />
             </div>
         </div>
     );

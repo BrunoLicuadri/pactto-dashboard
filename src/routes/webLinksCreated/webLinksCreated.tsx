@@ -10,7 +10,7 @@ export default function WebLinksCreated({ text1, text2 }: Props) {
 
     return (
         <>
-            <div className='container'>
+            <div className='containerWL'>
                 <div className='inner-Container'>
                     <div className='searchChat-subtitle'>
                         <h1>{text1}</h1>

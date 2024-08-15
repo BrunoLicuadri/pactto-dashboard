@@ -7,6 +7,6 @@ type Props = {
 export default function SecondaryButton({ text }: Props) {
 
     return (
-        <button type='reset' className="button-container button-text secondayButton-bg" >{text}</button>
+        <button type='reset' className="button-container button-text secondaryButton-bg" >{text}</button>
     );
 }

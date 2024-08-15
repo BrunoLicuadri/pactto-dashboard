@@ -9,7 +9,7 @@ export default function VideosToReview({ text }: Props) {
 
     return (
         <>
-            <div className='container'>
+            <div className='containerVR'>
                 <div className='searchChat-subtitle'>
                     <h1>{text}</h1>
                 </div>

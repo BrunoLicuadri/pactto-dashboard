@@ -1,0 +1,100 @@
+.subs-container{
+    height: 911px;
+    width: 100%;
+    background-color: var(--main-bg);
+    padding: 41px 35px;
+}
+
+.subs-box{
+    height: 565px;
+    width: 989px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pacttoproaccess{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto';
+    color: #6e6e6e;
+}
+
+.highlightext{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: .14px;
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+.pacttoproallows{
+    font-size: 14px;
+    line-height: 13px;
+    font-family: 'Roboto';
+    letter-spacing: .14px;
+    color: #e2e2e2;
+    opacity: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    height: 32px;
+    width: 100vw;
+    display: flex;
+}
+
+.li-font {
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'Roboto';
+    color: #e2e2e2;
+}
+
+.svg-box{
+    display: flex;
+    flex-direction: row;
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+}
+
+.link{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: var(--primary-font-color);
+}
+
+
+
+
+.subs-button-container{
+    height: 48px;
+    width: 312px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.subs-secondaryButton-bg {
+    background-color: var(--button-secondary-bg-color);
+}
+
+.subs-button-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--button-font-color);
+}

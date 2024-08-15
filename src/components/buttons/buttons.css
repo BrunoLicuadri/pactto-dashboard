@@ -14,12 +14,12 @@
     background-color: var(--button-primary-bg-color);
 }
 
-.secondaryButton-bg {
-    background-color: var(--button-secondary-bg-color);
+.primaryButton-bg:hover {
+    background-color: var(--button-hover-color);
 }
 
-.button-container:hover {
-    background-color: var(--button-hover-color);
+.secondaryButton-bg {
+    background-color: var(--button-secondary-bg-color);
 }
 
 .button-text{
